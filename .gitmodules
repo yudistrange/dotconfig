@@ -1,3 +1,6 @@
 [submodule "alacritty/themes"]
 	path = alacritty/themes
 	url = https://github.com/alacritty/alacritty-theme
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:yudistrange/Shia-LaConf.git
