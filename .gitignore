@@ -1,0 +1,11 @@
+EOS-greeter.conf
+dconf/
+eos-update-notifier.first_init
+htop/
+pavucontrol.ini
+pulse/
+reflector-simple-free-params.txt
+systemd/
+user-dirs.dirs
+user-dirs.locale
+xfce4/
