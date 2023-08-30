@@ -21,14 +21,14 @@
         "memory",
         "cpu",
         "pulseaudio",
-        "custom/keyboard-layout",
+        //"custom/keyboard-layout",
+        "custom/weather",
         "battery",
         //"custom/PBPbattery",
         "backlight#icon",
         "backlight#value",
         "clock",
         "tray",
-        //"custom/weather",
         "custom/power",
     ],
 
@@ -163,7 +163,7 @@
     // to use the weather module replace <your_location> with your city or town
     // note: do not use spaces: new york would be newyork
     "custom/weather": {
-        "exec": "~/.config/waybar/scripts/weather.sh <your_location>", 
+        "exec": "~/.config/waybar/scripts/weather.sh Bengaluru",
         "return-type": "json",
         "interval": 600,
     },
