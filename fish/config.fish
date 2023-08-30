@@ -23,3 +23,8 @@ fish_add_path -aP ~/.rustup/toolchains/esp/xtensa-esp32-elf/esp-12.2.0_20230208/
 
 # Enable direnv for dynamic environment variables
 direnv hook fish | source
+
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/udit/.ghcup/bin # ghcup-env
+
+# opam configuration
+source /home/udit/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
