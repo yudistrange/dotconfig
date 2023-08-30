@@ -9,3 +9,32 @@ systemd/
 user-dirs.dirs
 user-dirs.locale
 xfce4/
+zoom*
+yarn/
+xed/
+vlc/
+syncthing/
+simple-update-notifier/
+racket/
+pypoetry/
+nextjs-nodejs/
+ngrok/
+obs-studio/
+neofetch/
+menus/
+lazygit/
+google-chrome/
+discord/
+configstore/
+chromium/
+cef_user_data/
+astro/
+Thunar/
+Slack/
+Postman/
+Logseq/
+Google/
+Android Open Source Project/
+Code - OSS/
+Docker Desktop/
+MongoDB Compass/
