@@ -16,6 +16,8 @@ for_window [class="Slack"] focus
 
 for_window [app_id="xed"] focus
 
+# Allow emulator to float
+for_window [app_id="Android Emulator"] floating enable
 
 # set floating (nontiling)for apps needing it:
 for_window [class="Yad" instance="yad"] floating enable
