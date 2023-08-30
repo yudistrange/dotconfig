@@ -5,14 +5,17 @@ for_window [app_id="firefox"] focus
 assign [class="firefox"] 2
 for_window [class="firefox"] focus
 
-assign [app_id=thunar] 3
+assign [app_id=thunar] 5
 for_window [app_id=thunar] focus
 
-assign [class="Telegram"] 4
+assign [class="Telegram"] 7
 for_window [class="Telegram"] focus
 
 assign [class="Slack"] 3
 for_window [class="Slack"] focus
+
+assign [class="chrome"] 4
+for_window [class="chrome"] focus
 
 for_window [app_id="xed"] focus
 
