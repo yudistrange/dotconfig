@@ -13,7 +13,7 @@ fish_add_path -aP ~/.cargo/bin
 fish_add_path -aP ~/.local/bin
 
 # ASDF setup
-source ~/.local/bin/asdf/asdf.fish
+source ~/.asdf/asdf.fish
 #. ~/.asdf/plugins/java/set-java-home.fish
 
 # ESP Setup
@@ -28,3 +28,4 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 
 # opam configuration
 source /home/udit/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+ 
