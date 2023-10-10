@@ -4,6 +4,7 @@ end
 
 # aliases
 alias vim nvim
+alias ls eza
 
 # Env Variables
 set -gx EDITOR nvim
