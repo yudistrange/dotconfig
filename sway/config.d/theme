@@ -36,10 +36,3 @@ client.background       #F8F8F2
 bar {
     swaybar_command waybar
 }
-
-# Sway FX related config
-blur enable
-blur_passes 10
-blur_radius 10
-shadows enable
-corner_radius 5 
