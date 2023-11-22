@@ -13,6 +13,9 @@ set -gx EDITOR nvim
 fish_add_path -aP ~/.cargo/bin
 fish_add_path -aP ~/.local/bin
 
+# Add the lsp servers to PATH
+fish_add_path -aP ~/.local/share/nvim/mason/bin
+
 # ASDF setup
 source ~/.asdf/asdf.fish
 #. ~/.asdf/plugins/java/set-java-home.fish
