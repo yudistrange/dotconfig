@@ -1,24 +1,13 @@
-import:
- - ~/.config/alacritty/themes/themes/kanadawa_dragon.yaml
+import = [
+  "~/.config/alacritty/themes/themes/catpuccin_mocha.toml"
+]
 
-shell:
-  program: /usr/bin/fish
+[shell]
+program = "/usr/bin/fish"
 
-font:
-  normal:
-    family: iosevka
-    style: fixed
-
-  bold:
-    family: iosevka
-    style: Bold
-
-  italic:
-    family: iosevka
-    style: Italic
-
-  bold_italic:
-    family: iosevka
-    style: Bold Italic
-
-  size: 13
+[font]
+normal      = { family= "iosevka", style= "fixed" }
+bold        = { family= "iosevka", style= "Bold" }
+italic      = { family= "iosevka", style= "Italic" }
+bold_italic = { family= "iosevka", style= "Bold Italic" }
+size = 13
