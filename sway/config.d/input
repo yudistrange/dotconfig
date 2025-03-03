@@ -11,12 +11,25 @@ input type:touchpad {
 }
 
 # Read `man 5 sway-input` for more information about this section.
-#
 input type:keyboard {
     xkb_layout "us"
     xkb_options ctrl:nocaps
-    repeat_rate 70
+    repeat_rate 80
     repeat_delay 250
+}
+
+# input type:keyboard {
+#     xkb_layout "us"
+#     xkb_options ctrl:nocaps
+#     repeat_rate 10
+#     repeat_delay 1250
+# }
+
+input type:mouse {
+    natural_scroll  disabled
+    dwt             enabled
+    accel_profile   "adaptive"
+    pointer_accel   0.6
 }
 
 exec_always {
