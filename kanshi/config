@@ -1,11 +1,13 @@
 profile {
 	output eDP-1 disable
-	output DP-1 enable scale 1.75 mode 3840x2160 position 0,0
+	output DP-1 enable scale 1.5 mode 3840x2160 position 0,0
 }
 
 profile {
 	output eDP-1 disable
-	output DP-2 enable scale 1.75 mode 3840x2160 position 0,0
+	output DP-2 enable scale 1.5 mode 3840x2160 position 0,0
+	#output DP-2 enable scale 1 mode 1280x720 position 0,0
+	#output DP-2 enable scale 1 mode 1920x1080 position 0,0
 }
 
 profile {
