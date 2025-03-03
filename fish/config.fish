@@ -4,7 +4,7 @@ end
 
 # aliases
 alias vim nvim
-alias ls eza
+alias ls 'eza --sort created'
 
 # Env Variables
 set -gx EDITOR nvim
@@ -32,4 +32,14 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 
 # opam configuration
 source /home/udit/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+
+# Hugging face AI plugin
  
+# starship init
+starship init fish | source
+
+# Set up JAVA_HOME from asdf
+. ~/.asdf/plugins/java/set-java-home.fish
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/udit/google-cloud-sdk/path.fish.inc' ]; . '/home/udit/google-cloud-sdk/path.fish.inc'; end
